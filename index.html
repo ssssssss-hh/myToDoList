@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- 로그인박스 -->
+      <div class="login-box">
+        <form id="login-form">
+          <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="사용자 이름"
+            size="30"
+          />
+          <input class="hidden" type="submit" value="" />
+        </form>
+      </div>
+      <!-- 투두박스 -->
+      <div id="todo-wrap" class="todo hidden">
+        <div class="boxcontainer">
+          <div class="web-box">
+            <div class="box-header">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+            </div>
+            <h1 id="greeting"></h1>
+            <div>
+              <form class="todo-form" id="todo-form">
+                <input type="text" placeholder="할 일 작성하기" required />
+              </form>
+              <ul class="todo-list" id="todo-list"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

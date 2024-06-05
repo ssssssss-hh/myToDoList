@@ -1,0 +1,144 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input {
+  width: 300px;
+  height: 50%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 5px solid black;
+}
+
+button {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Black Han Sans', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: -0.0425rem;
+  color: #000;
+  line-height: 1.4;
+  background: #f37021;
+}
+
+.wrap {
+  position: relative;
+  display: block;
+}
+
+.login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+.boxcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -180px 50px 50px 50px;
+}
+
+.web-box {
+  width: 1600px;
+  height: 800px;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.box-header {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 30px;
+  border-radius: 15px 15px 0 0;
+  background: #333;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 10px -3px 0 12px;
+  background: #fff;
+}
+
+.circle:nth-child(1) {
+  background: red;
+}
+
+.circle:nth-child(2) {
+  background: orange;
+}
+
+.circle:nth-child(3) {
+  background: green;
+}
+
+.web-box h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  font-size: 60px;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.todo-list {
+  width: 100%;
+  height: 600px;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
